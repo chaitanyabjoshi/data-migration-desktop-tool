@@ -10,8 +10,10 @@ Sink settings require all parameters shown below. An optional `MaxBlockSizeInKB`
 
 ### Sink
 
+Possible values for `"Sink"` name property are `"JSON-AzureBlob(beta)"` and `"Parquet-AzureBlob(beta)"`.
+
 ```json
-{
+"SinkProperties": {
     "ConnectionString": "DefaultEndpointsProtocol=https;AccountName=...",
     "ContainerName": "",
     "BlobName": "",
